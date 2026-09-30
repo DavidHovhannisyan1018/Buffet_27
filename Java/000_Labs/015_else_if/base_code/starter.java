@@ -10,6 +10,18 @@ class starter {
 	public static void main(String args[]) {
 		// the string "I love to learn coding remotely." will appear in
 		// the command window when you compile and run this program.
-		System.out.print("I love to learn coding remotely."); 
+		 Scanner sc = new Scanner(System.in);
+		 System.out.println("Guess the number");
+		 int x = sc.nextInt();
+		 int y = (int)(Math.random()*1000);
+		 if(x==y){
+			System.out.println("Correct "+y+" is the number" );
+		 }
+		else if(x>y){
+		System.out.println("Lower than that!");
+		}
+		else if(x<y){
+			System.out.println("Cmon higher than that");
+		}
 	}
 }
