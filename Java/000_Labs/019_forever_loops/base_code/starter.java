@@ -9,8 +9,15 @@ class starter {
 	public static void main(String args[]) {
 		// Your code goes below here
 
-
-
 		
+
+	while(5>1){
+
+		System.out.println(Math.random()*1000);
+
+	
+	
+
+	}
 	}
 }
